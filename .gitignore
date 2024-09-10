@@ -1,0 +1,76 @@
+# .gitignore for Gin Framework projects
+
+# Ignore Go-related files
+*.go~
+*.gotmp
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.mod
+*.tmp
+*.lock
+
+# Ignore vendor directory (use go mod instead)
+vendor/
+
+# Ignore test output
+_test/
+
+# Ignore build artifacts
+dist/
+bin/
+build/
+
+# Ignore IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.s[wl]
+*.sw[op]
+
+# Ignore log files
+*.log
+
+# Ignore cache directories
+.cache/
+go-build/
+pkg/mod/cache/
+
+# Ignore coverage profiles
+*.coverprofile
+
+# Ignore profiling data
+*.prof
+
+# Ignore JSON/YAML/TOML/INI/XML files
+*.json
+*.yaml
+*.yml
+*.toml
+*.ini
+*.xml
+
+# Ignore SQLite database files
+*.db
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile~
+docker-compose.yml~
+docker-compose.yaml~
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore session files
+*.session
+
+# Ignore coverage reports
+.coverage
