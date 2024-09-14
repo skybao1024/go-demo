@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"myproject/internal/api/response"
 	"myproject/internal/middleware"
-	"myproject/internal/services/userservice"
+	"myproject/internal/services/user"
 )
 
 type UserHandler struct {

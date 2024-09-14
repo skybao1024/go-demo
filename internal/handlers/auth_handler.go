@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"github.com/gin-gonic/gin"
-	"myproject/internal/api/requests/authrequest"
+	"myproject/internal/api/requests/auth"
 	"myproject/internal/api/response"
-	"myproject/internal/services/authservice"
+	"myproject/internal/services/auth"
 )
 
 type AuthHandler struct {

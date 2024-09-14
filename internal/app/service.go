@@ -4,8 +4,8 @@ import (
 	"myproject/internal/config"
 	"myproject/internal/db"
 	"myproject/internal/services"
-	"myproject/internal/services/authservice"
-	"myproject/internal/services/userservice"
+	"myproject/internal/services/auth"
+	"myproject/internal/services/user"
 )
 
 type Services struct {
